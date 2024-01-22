@@ -1,0 +1,30 @@
+.slider-wrapper {
+    order: 2;
+}
+
+#prev {
+    order: 1;
+    transform: scale(2);
+}
+
+#next {
+    order: 3;
+    transform: scale(2);
+}
+
+.slider-img {
+    display: none;
+    width: 564px;
+    aspect-ratio: 1;
+    overflow: hidden;
+    transition-duration: 500ms;
+}
+
+
+.active {
+    display: block;
+    border: 4px solid #003cff;
+    border-radius: 25px;
+    order: 3;
+    box-shadow: 0px 0px 16px #003cff;
+}
