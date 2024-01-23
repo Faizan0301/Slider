@@ -1,20 +1,10 @@
-.slider-wrapper {
-    order: 2;
-}
 
-#prev {
-    order: 1;
+#next ,#prev {
     transform: scale(2);
 }
-
-#next {
-    order: 3;
-    transform: scale(2);
-}
-
 .slider-img {
     display: none;
-    width: 564px;
+    width: 600px;
     aspect-ratio: 1;
     overflow: hidden;
     transition-duration: 500ms;
